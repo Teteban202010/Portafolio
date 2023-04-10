@@ -19,8 +19,6 @@ This project was made with simple vanilla technologies (HTML 5, CSS3 and Js), wi
 ## Demo
 
 ![Portfolio Capture](https://github.com/Teteban202010/Portafolio/tree/main/assets/img/portafolio-harry.png)
-Aquí se puede incluir un enlace a una demostración en vivo del proyecto o una captura de pantalla de la interfaz.
-Instalación
 
 ## Installation 
 
