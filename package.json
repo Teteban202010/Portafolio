@@ -1,0 +1,16 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio de desarrollo web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev"
+  },
+  "keywords": [
+    "JavaScript",
+    "HTML",
+    "Css"
+  ],
+  "author": "Harrison Esteban Boada Aldana",
+  "license": "ISC"
+}

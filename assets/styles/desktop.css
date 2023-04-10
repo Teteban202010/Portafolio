@@ -1,0 +1,141 @@
+
+
+.header {
+    height: 70px;
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar-icon__menu {
+    display: none;
+}
+
+.navbar .navbar-elements__container .logo-container h1 {
+    width: 15%;
+}
+
+.navbar-elements__containerpc {
+    position: absolute;
+    right: 200px;
+    width: 50%;
+    display: block;
+}
+
+.navbar-elements__containerpc ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-elements__containerpc ul li a {
+    text-decoration: none;
+    color: var(--second-color-black);
+    font-family: var(--typography);
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 300ms;
+}
+
+.navbar-elements__containerpc ul li a:hover {
+    color: var(--shadow-navbar);
+}
+
+.content-photo-info {
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.my-photograph__container {
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    order: 2;
+    
+}
+
+.info-container {
+    width: 50%;
+    order: 1;
+}
+
+.info-small-description {
+    display: block;
+}
+
+.info-small-description p {
+    color: var(--second-color-black);
+    font-family: var(--typography);
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.info-small-description p:first-child {
+    margin-bottom: 20px;
+}
+
+.info-buttons {
+    grid-template-columns: 1fr 1fr;
+}
+
+.info-buttons .button-downloadcv {
+    width: 100%;
+}
+
+.info-buttons .info-button-two {
+    width: 100%;
+}
+
+.aboutme-container {
+    flex-direction: row;
+    margin: 50px 0px;
+}
+
+.about-text {
+    order: 2;
+    width: 50%;
+    margin-right: 30px;
+}
+
+.skills-container {
+    margin-bottom: 50px;
+}
+
+.skills-container .skills-item {
+    opacity: 0.8;
+}
+
+.skills-container .skills-item:hover {
+    opacity: 1;
+    box-shadow: 3px 3px 3px var(--blue-light);
+}
+
+.training-container {
+    margin-bottom: 50px;
+}
+
+.training-container .training-item {
+    opacity: 0.8;
+}
+
+.training-container .training-item:hover {
+    opacity: 1;
+    box-shadow: 3px 3px 3px var(--blue-light);
+}
+
+.projects-container {
+    gap: 50px;
+}
+
+.go-top-container {
+    transition: all 300ms ease;
+}
+
+.go-top-container:hover {
+    transform: scale(1.1);
+    border-color: rgba(0, 0, 0, 0.5);
+
+}
