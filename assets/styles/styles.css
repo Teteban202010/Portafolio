@@ -459,12 +459,6 @@ header {
     letter-spacing: 1px;
 }
 
-.Softskills-container-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .training-content {
     width: 100%;
     height: auto;
