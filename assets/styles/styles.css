@@ -108,20 +108,22 @@ header {
     display: none;
 }
 
+.navbar-modal__content {
+    width: 100%;
+}
+
 .navbar-modal__container {
     display: flex;
     flex-direction: row;
     height: 100vh;
     position: absolute;
-    right: 0;
+    right: 0px;
     top: 0px;
-    width: 80%;
+    width: 60%;
     background-color: var(--first-color-white);
     box-shadow: -2px 0px 4px var(--light-shadow);
     border-radius: 1rem 0 0 1rem;
     z-index: 100;
-    transition: all 0.6s ease-out;
-    transform: translateX(0%);
 }
 
 .navbar-modal__menu {
