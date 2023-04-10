@@ -238,7 +238,7 @@ header {
     width: 0px;
     background: var(--first-color-white);
     border-left: 1px solid var(--second-color-black);
-    animation: writting 5s infinite alternate steps(26);
+    animation: writting 5s infinite alternate steps(30);
 }
 
 @keyframes writting {
@@ -728,21 +728,6 @@ header {
 
 .show-top-container {
     transform: scale(1);
-}
-
-@keyframes popup {
-    0% {
-        width: 0rem;
-        height: 0rem;
-    }
-    50% {
-        width: 8rem;
-        height: 8rem;
-    }
-    100% {
-        width: 6.6rem;
-        height: 6.6rem;
-    }
 }
 
 .footer {
