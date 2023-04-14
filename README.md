@@ -22,10 +22,8 @@ This project was made with simple vanilla technologies (HTML 5, CSS3 and Js), wi
 
 ## Installation 
 
-In the terminal you put with npm Node, you must also cloning the repository
+You must also cloning the repository
 `$ git clone url`
-`$ npm install` 
-and that's it
 
 ## Author 
 
