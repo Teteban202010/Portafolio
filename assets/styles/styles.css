@@ -705,7 +705,7 @@ header {
 .go-top-container {
     position: fixed;
     bottom: 40%;
-    left: 65%;
+    right: 5%;
     width: 3rem;
     height: 3rem;
     display: flex;
