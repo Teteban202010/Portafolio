@@ -131,11 +131,5 @@
 }
 
 .go-top-container {
-    transition: all 300ms ease;
-}
-
-.go-top-container:hover {
-    transform: scale(1.1);
-    border-color: rgba(0, 0, 0, 0.5);
-
+    visibility: hidden;
 }

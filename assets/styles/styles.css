@@ -121,7 +121,7 @@ header {
     top: 0px;
     width: 60%;
     background-color: var(--first-color-white);
-    box-shadow: -2px 0px 4px var(--light-shadow);
+    box-shadow: -1px 0px 1px #ddd;
     border-radius: 1rem 0 0 1rem;
     z-index: 100;
 }
@@ -515,6 +515,17 @@ header {
     width: 100%;
     height: auto;
     margin-bottom: 100px;
+}
+
+.projects-content p {
+    color: var(--black-green-menu);
+    font-family: var(--typography);
+    font-size: 14px;
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .projects-container {
